@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 11.2.2-MariaDB-1:11.2.2+maria~ubu2204)
 # Database: gameCollection
-# Generation Time: 2024-02-26 15:15:21 +0000
+# Generation Time: 2024-02-26 15:42:02 +0000
 # ************************************************************
 
 
@@ -123,7 +123,7 @@ DROP TABLE IF EXISTS `userData`;
 CREATE TABLE `userData` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `rating` int(11) DEFAULT NULL,
-  `review` int(11) DEFAULT NULL,
+  `review` text DEFAULT NULL,
   `appID` int(11) DEFAULT NULL,
   `steamID` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`id`)
