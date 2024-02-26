@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 11.2.2-MariaDB-1:11.2.2+maria~ubu2204)
 # Database: gameCollection
-# Generation Time: 2024-02-26 11:13:01 +0000
+# Generation Time: 2024-02-26 11:38:56 +0000
 # ************************************************************
 
 
@@ -28,10 +28,11 @@ DROP TABLE IF EXISTS `gameDisplay`;
 CREATE TABLE `gameDisplay` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `appID` int(11) NOT NULL,
-  `title` varchar(255) DEFAULT NULL,
-  `author` varchar(255) DEFAULT NULL,
+  `gameName` varchar(255) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `review` varchar(255) DEFAULT NULL,
+  `image` varchar(255) DEFAULT NULL,
+  `genres` varchar(255) DEFAULT NULL,
   `rating` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -48,7 +49,6 @@ CREATE TABLE `playerLibrary` (
   `steamID` int(20) NOT NULL,
   `gameCount` int(11) DEFAULT NULL,
   `appID` int(11) DEFAULT NULL,
-  `gameName` varchar(255) DEFAULT NULL,
   `totalPlaytime` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
