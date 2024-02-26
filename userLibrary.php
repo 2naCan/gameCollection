@@ -1,4 +1,8 @@
 <?php
+// This file retrieves a user's information from the steam API including their game library
+// that data is then routed through another of steam's APIs to gather information on each of the games
+// that retrieved data is then used to populate my database gameCollection
+
 $userID = '76561198149865619'; // My steam user ID. will be changed to variable in future
 
 $apiKey = 'E63BA099319EBFEBB90D76F475B9FBFF';
