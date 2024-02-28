@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 11.2.2-MariaDB-1:11.2.2+maria~ubu2204)
 # Database: gameCollection
-# Generation Time: 2024-02-28 11:54:19 +0000
+# Generation Time: 2024-02-28 16:10:28 +0000
 # ************************************************************
 
 
@@ -166,6 +166,30 @@ VALUES
 UNLOCK TABLES;
 
 
+# Dump of table loginInfo
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `loginInfo`;
+
+CREATE TABLE `loginInfo` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `steamID` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+LOCK TABLES `loginInfo` WRITE;
+/*!40000 ALTER TABLE `loginInfo` DISABLE KEYS */;
+
+INSERT INTO `loginInfo` (`id`, `username`, `password`, `steamID`)
+VALUES
+	(2,'izayahJordan','$2y$10$VRRsqyGG49DO0pv5ST7FaO1I8ic0gebizu3Yd5imAruTwWED2.OHW','76561198149865619');
+
+/*!40000 ALTER TABLE `loginInfo` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
 # Dump of table userData
 # ------------------------------------------------------------
 
@@ -187,7 +211,8 @@ INSERT INTO `userData` (`id`, `rating`, `review`, `appID`, `steamID`)
 VALUES
 	(23,5,'Amazing game, way ahead of its time. Very funny story with a massive amount of content in the game. Would highly recommend',12200,'76561198149865619'),
 	(49,4,'A childhood classic for me. Not the best but nothing will beat the nostalgia I have for this game.',3320,'76561198149865619'),
-	(50,2,'Very repetitive gameplay loop, cluttered ui but some fun unique mechanics',304050,'76561198149865619');
+	(50,2,'Very repetitive gameplay loop, cluttered ui but some fun unique mechanics',304050,'76561198149865619'),
+	(51,5,'Amazing game, countless possibilities and stories. Fun but challenging gameplay and endless replay-ability.',233860,'76561198149865619');
 
 /*!40000 ALTER TABLE `userData` ENABLE KEYS */;
 UNLOCK TABLES;
