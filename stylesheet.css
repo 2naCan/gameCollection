@@ -1,0 +1,180 @@
+body{
+    background-color: #526D82;
+}
+
+.navButtons{
+    display: flex;
+    align-items: center;
+    height: 90%;
+    text-decoration: none;
+    gap: 1rem;
+}
+
+.navBar{
+    display: flex;
+    justify-content: flex-end;
+    height: 5rem;
+    align-items: center;
+    background-color: #27374D;
+    position: relative;
+}
+
+#logo{
+    padding-right: 60vw;
+}
+
+.navButtons a {
+    text-decoration: none;
+    color: #DDE6ED;
+}
+
+button {
+    border-radius: .25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    clip-path: polygon(0 0,0 0,100% 0,100% 0,100% calc(100% - 15px),calc(100% - 15px) 100%,15px 100%,0 100%);
+    height: 40px;
+    font-size: 0.7rem;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    background-image: linear-gradient(90deg,#27374D,#9DB2BF);
+    border: 0 solid;
+    overflow: hidden;
+
+}
+
+button:hover {
+    cursor: pointer;
+    transition: all .3s ease-in;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+h1{
+    padding-left: 2rem;
+}
+.library{
+    gap: 2rem;
+}
+
+.gameBox{
+    display: flex;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.gameBoxImage img{
+    min-height: 15vw;
+    width: 40vw;
+}
+
+.titleText{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    padding-left: 2rem;
+}
+
+.playedReview{
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    align-items: flex-start;
+}
+
+.reviewButton{
+    margin-left: 3rem;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.rating{
+    display : flex;
+}
+
+.rating input{
+    position : absolute;
+    left     : -100vw;
+}
+
+.rating label{
+    width      : 48px;
+    height     : 48px;
+    padding    : 48px 0 0;
+    overflow   : hidden;
+    background : url('img/stars.svg') no-repeat top left;
+}
+.rating:not(:hover) input:indeterminate + label,
+.rating:not(:hover) input:checked ~ input + label,
+.rating input:hover ~ input + label{
+    background-position : -48px 0;
+}
+
+.rating:not(:hover) input:focus-visible + label{
+    background-position : -96px 0;
+}
+.review p{
+    width: 45%;
+}
+
+
+.pictureStars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reviewPost{
+    margin-top: 2rem;
+}
+
+#appID {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .gameBox{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gameBoxImage img {
+        width: 100%;
+        height: auto;
+    }
+    .titleText{
+        width: 80%;
+    }
+    .review{
+        flex-direction: column;
+        align-items: center;
+    }
+    .review img {
+        width: 100%;
+        height: auto;
+    }
+    .review p{
+        width: 80%;
+    }
+    #stars{
+        width: 50%;
+        height: auto;
+    }
+}
+
+
+
+

@@ -2,6 +2,7 @@
 // This file retrieves a user's information from the steam API including their game library
 // that data is then routed through another of steam's APIs to gather information on each of the games
 // that retrieved data is then used to populate my database gameCollection
+require_once 'dbInit.php';
 
 $userID = '76561198149865619'; // My steam user ID. will be changed to variable in future
 
@@ -10,9 +11,7 @@ $steamID = $userID;
 $apiUrl = 'https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=' . $apiKey . '&steamid=' . $steamID . '&format=json';
 $json = json_decode(file_get_contents($apiUrl), true); // this api retrieves all the users games
 
-$db = new PDO('mysql:host=127.0.0.1; dbname=gameCollection', 'root', 'password');
-$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
 
 function getUserInfo()
 {
@@ -62,3 +61,4 @@ function getUserInfo()
    }
 
 }
+getUserInfo();
