@@ -2,9 +2,7 @@
 session_start();
 
 if (isset($_POST)){
-    $db = new PDO('mysql:host=db; dbname=gameCollection', 'root', 'password');
-    $db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
-    $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    require_once 'dbInit.php';
 
     $query = $db->prepare('INSERT INTO `userData`(`rating`, `review`, `steamID`, `appID`)VALUES (:rating, :review, :steamID, :appID);');
     $query->bindParam(':rating', $_POST['rating']);
