@@ -1,11 +1,11 @@
 <?php
 session_start();
+require_once  'navbar.php';
+require_once 'dbInit.php';
+
 $game = $_GET['game'];
 $user = $_GET['user'];
 
-require_once  'navbar.php';
-
-require_once 'dbInit.php';
 
 $userGames = $db->prepare('SELECT * FROM `gameDisplay` WHERE `steamID` = \'' . $user . '\' AND `appID` = '. $game );
 $userGames->execute();
