@@ -15,16 +15,16 @@
 
     <div class="navButtons">
         <button>
-            <a id="home" class="" href="index.php">Home</a>
+            <a id="home" href="index.php">Home</a>
         </button>
         <button>
-            <a id="userLibrary" class="" href="library.php">Library</a>
+            <a id="userLibrary" href="library.php">Library</a>
         </button>
         <button>
-            <a id="userReviews" class="" href="review.php">Reviews</a>
+            <a id="userReviews" href="review.php">Reviews</a>
         </button>
         <button>
-            <a id="profile" class="" href="profile.php">Profile</a>
+            <a id="profile" href="profile.php">Profile</a>
         </button>
     </div>
 

@@ -5,13 +5,13 @@ require_once  'navbar.php';
 
 require_once  'dbInit.php';
 
-$userGames = $db->prepare('SELECT * FROM `userData` INNER JOIN `gameDisplay` ON `userData`.`appID` = `gameDisplay`.`appID` WHERE `userData`.`steamID` = \'' . $_SESSION['user'] . '\' ');
+$userGames = $db->prepare('SELECT * FROM `userData` INNER JOIN `gameDisplay` ON `userData`.`appID` = `gameDisplay`.`appID` WHERE `userData`.`steamID` = \'' . $_SESSION['user'] . '\' AND `deleted` IS null ');
 $userGames->execute();
 $userGames = $userGames->fetchAll();
 
 
 foreach ($userGames as $game) {
-    if ($game['deleted'] === null) {
+
         echo "<div class='review'>";
         echo '<div class="card">';
         echo '<div class="circle"></div>';
@@ -31,5 +31,5 @@ foreach ($userGames as $game) {
         echo "</div>";
         echo "</div>";
         echo "</div>";
-    }
+
 }
