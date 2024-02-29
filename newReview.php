@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once  'navbar.php';
+require_once 'navbar.php';
 require_once 'dbInit.php';
 
 $game = $_GET['game'];
@@ -22,8 +22,8 @@ $userGames = $userGames->fetch();
 </head>
 <body>
 
-<div class = review>
-    <h1><?= $userGames['gameName']; ?><h1>
+<div class='review card'>
+    <div class="card-inner">
     <div class= "pictureStars">
         <img src="<?= $userGames["image"]; ?>">
         <div class= reviewFavourite>
@@ -42,10 +42,12 @@ $userGames = $userGames->fetch();
                 <label for="rating5"></label>
             </div>
         </div>
-        <textarea id="reviewText" name="reviewText" rows="6" cols="50">Add review</textarea>
+        <textarea id="reviewText" name="reviewText" rows="6" cols="50" placeholder="Write a review"></textarea>
         <input type="submit" value="Post" id="reviewPost">
         <form>
+    </div>
     </div>
 </div>
 
 </body>
+</html>

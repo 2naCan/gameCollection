@@ -11,20 +11,20 @@
 <body>
 
 <div class="navBar">
-    <img id="logo" src="#">
+    <img id="logo" src="img/gamelog-high-resolution-logo-transparent.png">
 
     <div class="navButtons">
         <button>
-            <a id="home" class="" href="index.php">Home</a>
+            <a id="home" href="index.php">Home</a>
         </button>
         <button>
-            <a id="userLibrary" class="" href="library.php">Your Library</a>
+            <a id="userLibrary" href="library.php">Library</a>
         </button>
         <button>
-            <a id="userReviews" class="" href="review.php">Your Reviews</a>
+            <a id="userReviews" href="review.php">Reviews</a>
         </button>
         <button>
-            <a id="popularGames" class="" href="#">Popular Games</a>
+            <a id="profile" href="profile.php">Profile</a>
         </button>
     </div>
 
@@ -32,3 +32,4 @@
 
 
 </body>
+</html>
