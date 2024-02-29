@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 11.2.2-MariaDB-1:11.2.2+maria~ubu2204)
 # Database: gameCollection
-# Generation Time: 2024-02-26 15:42:02 +0000
+# Generation Time: 2024-02-28 16:10:28 +0000
 # ************************************************************
 
 
@@ -109,9 +109,84 @@ VALUES
 	(202,359550,'Tom Clancy\'s Rainbow Six® Siege','Tom Clancy‘s Rainbow Six® Siege ist ein taktischer, teambasierter Elite-Shooter, bei dem die bessere Planung und Durchführung den Sieg bringt.','https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg?t=1707874116','76561198149865619',8918),
 	(207,431960,'Wallpaper Engine','Use stunning live wallpapers on your desktop. Animate your own images to create new wallpapers or import videos/websites and share them on the Steam Workshop!','https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg?t=1665921297','76561198149865619',4307),
 	(208,433340,'Slime Rancher','Slime Rancher is the tale of Beatrix LeBeau, a plucky, young rancher who sets out for a life a thousand light years away from Earth on the ‘Far, Far Range’ where she tries her hand at making a living wrangling slimes.','https://cdn.akamai.steamstatic.com/steam/apps/433340/header.jpg?t=1692314094','76561198149865619',134),
-	(211,438100,'VRChat','Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.','https://cdn.akamai.steamstatic.com/steam/apps/438100/header.jpg?t=1693940129','76561198149865619',26);
+	(211,438100,'VRChat','Join our growing community as you explore, play, and help craft the future of social VR. Create worlds and custom avatars. Welcome to VRChat.','https://cdn.akamai.steamstatic.com/steam/apps/438100/header.jpg?t=1693940129','76561198149865619',26),
+	(216,335240,'Transformice','Transformice is an MMO platformer about dozens of mice running to bring back the cheese! Will the almighty Shaman help you or just ruin everything? Millions of levels, hectic physics, skill trees, and more importantly... hats!','https://cdn.akamai.steamstatic.com/steam/apps/335240/header.jpg?t=1684425951','76561198149865619',1),
+	(217,250900,'The Binding of Isaac: Rebirth','The Binding of Isaac: Rebirth is a randomly generated action RPG shooter with heavy Rogue-like elements. Following Isaac on his journey players will find bizarre treasures that change Isaac’s form giving him super human abilities and enabling him to fight off droves of mysterious creatures, discover secrets and fight his way to safety.','https://cdn.akamai.steamstatic.com/steam/apps/250900/header.jpg?t=1617174663','76561198149865619',16974),
+	(218,2400,'The Ship: Murder Party','The Ship is a murder mystery multiplayer.','https://cdn.akamai.steamstatic.com/steam/apps/2400/header.jpg?t=1594373405','76561198149865619',0),
+	(219,2420,'The Ship: Single Player','The Ship is a murder mystery alternative to traditional FPS multiplayer games - hunt and be hunted! Package includes multiplayer, single player and tutorial.','https://cdn.akamai.steamstatic.com/steam/apps/2420/header.jpg?t=1447350944','76561198149865619',0),
+	(221,340300,'Teddy Floppy Ear - Mountain Adventure','Teddy Floppy Ear is a main character of series of adventure games for the children, based on the on famous Polish cartoon. Send your kid onto an unforgettable journey with the world’s most charming bear!','https://cdn.akamai.steamstatic.com/steam/apps/340300/header.jpg?t=1671500369','76561198149865619',0),
+	(222,346010,'Besiege','Besiege is a physics based building game in which you construct medieval siege engines. Battle your way through a 54 level singleplayer campaign, unleash chaos with your friends in multiplayer, create your own worlds with the level editor, customize your game with mods through the workshop.','https://cdn.akamai.steamstatic.com/steam/apps/346010/header.jpg?t=1661441186','76561198149865619',3652),
+	(223,407530,'ARK: The Survival Of The Fittest','ARK: The Survival of the Fittest is a prototype spin-off of ARK: Survival Evolved, pitting up to 60 combatants against each other in a fast-paced, action-packed struggle for survival, where players are ultimately pushed into an epic final showdown leading their Dinosaur Armies into battle.','https://cdn.akamai.steamstatic.com/steam/apps/407530/header.jpg?t=1671847794','76561198149865619',0),
+	(224,349500,'Cubicle Quest','Cubicle Quest is a game about how life can suck. Dead end jobs, repetitive obligations, irritating coworkers... Cubicle Quest takes all of those things and turns them into enemies you can fight in an old-school RPG.','https://cdn.akamai.steamstatic.com/steam/apps/349500/header.jpg?t=1488235490','76561198149865619',1),
+	(225,356130,'Heroes of Scene','Heroes of scene is a multiplayer strategy game with an indirect control. You are in charge of the Kingdom of live toys. Build your own castle and summon toy warriors and spells to win!','https://cdn.akamai.steamstatic.com/steam/apps/356130/header.jpg?t=1455356267','76561198149865619',21),
+	(226,7670,'BioShock™','BioShock is a shooter unlike any you\'ve ever played, loaded with weapons and tactics never seen. You\'ll have a complete arsenal at your disposal from simple revolvers to grenade launchers and chemical throwers, but you\'ll also be forced to genetically modify your DNA to create an even more deadly weapon: you.','https://cdn.akamai.steamstatic.com/steam/apps/7670/header.jpg?t=1568739889','76561198149865619',65),
+	(227,8850,'BioShock® 2','Set approximately 10 years after the events of the original BioShock, the halls of Rapture once again echo with sins of the past. Along the Atlantic coastline, a monster has been snatching little girls and bringing them back to the undersea city of Rapture.','https://cdn.akamai.steamstatic.com/steam/apps/8850/header.jpg?t=1568765660','76561198149865619',0),
+	(228,409710,'BioShock™ Remastered','BioShock is a shooter unlike any other, loaded with unique weapons and tactics. Complete with an arsenal of revolvers, shotguns, and grenade launchers, players will be forced to genetically modify their DNA to become an even deadlier weapon.','https://cdn.akamai.steamstatic.com/steam/apps/409710/header.jpg?t=1598321131','76561198149865619',0),
+	(229,409720,'BioShock™ 2 Remastered','In BioShock 2, you step into the boots of the most iconic denizen of Rapture, the Big Daddy, as you explore through the decrepit and beautiful fallen city, chasing an unseen foe in search of answers and your own survival.','https://cdn.akamai.steamstatic.com/steam/apps/409720/header.jpg?t=1603360893','76561198149865619',0),
+	(230,306130,'The Elder Scrolls® Online','Join over 22 million players in the award-winning online multiplayer RPG and experience limitless adventure in a persistent Elder Scrolls world. Battle, craft, steal, or explore, and combine different types of equipment and abilities to create your own style of play. No game subscription required.','https://cdn.akamai.steamstatic.com/steam/apps/306130/header_alt_assets_15.jpg?t=1708620408','76561198149865619',225),
+	(231,360940,'The Mean Greens - Plastic Warfare','Take part of history’s greatest battle of Green VS. Tan. Fight amongst and against others online. Jump, shoot and roll your way into victory with fast paced objective based gameplay. Sometimes the greatest battles are fought by the smallest of soldiers.','https://cdn.akamai.steamstatic.com/steam/apps/360940/header.jpg?t=1648922803','76561198149865619',406),
+	(232,285920,'TerraTech','TerraTech is an open-world, sandbox adventure game, where you design and build your own creations through a mix of crafting, combat and discovery. Design vehicles from a huge library of blocks. Scavenge, craft and buy new parts to survive and become the ultimate planetary prospector.','https://cdn.akamai.steamstatic.com/steam/apps/285920/header_alt_assets_3.jpg?t=1708114364','76561198149865619',7197),
+	(233,363970,'Clicker Heroes','Ever wondered what one quadrillion damage per second feels like? Wonder no more! Embark on your quest to attain it today!','https://cdn.akamai.steamstatic.com/steam/apps/363970/header.jpg?t=1708385066','76561198149865619',1162),
+	(234,365720,'Skyrim Script Extender (SKSE)','The Skyrim Script Extender (SKSE) is a tool used by many Skyrim mods that expands scripting capabilities and adds additional functionality to the game.','https://cdn.akamai.steamstatic.com/steam/apps/365720/header.jpg?t=1685636678','76561198149865619',2),
+	(235,367520,'Hollow Knight','Forge your own path in Hollow Knight! An epic action adventure through a vast ruined kingdom of insects and heroes. Explore twisting caverns, battle tainted creatures and befriend bizarre bugs, all in a classic, hand-drawn 2D style.','https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg?t=1695270428','76561198149865619',486),
+	(236,266310,'GameGuru Classic','GameGuru Classic is a non-technical and fun game-maker. It allows you to build your own game world, using creative and enjoyable tools. Populate your game by placing down characters, weapons and other game items, then press one button to build your game, ready to play and share.','https://cdn.akamai.steamstatic.com/steam/apps/266310/header.jpg?t=1692285526','76561198149865619',134),
+	(237,371420,'Teddy Floppy Ear - The Race','People of Animalville got a carting fever and you must help one of them reach for the championship. Take the wheel, choose a kart, decide which character from \'Teddy Floppy Ear’ universe you want, and start the wild ride!','https://cdn.akamai.steamstatic.com/steam/apps/371420/header.jpg?t=1671500243','76561198149865619',4),
+	(238,322330,'Don\'t Starve Together','Fight, Farm, Build and Explore Together in the standalone multiplayer expansion to the uncompromising wilderness survival game, Don\'t Starve.','https://cdn.akamai.steamstatic.com/steam/apps/322330/header_alt_assets_43.jpg?t=1707873651','76561198149865619',2212),
+	(239,381210,'Dead by Daylight','Dead by Daylight is a multiplayer (4vs1) horror game where one player takes on the role of the savage Killer, and the other four players play as Survivors, trying to escape the Killer and avoid being caught and killed.','https://cdn.akamai.steamstatic.com/steam/apps/381210/header.jpg?t=1708984271','76561198149865619',4),
+	(240,383840,'Nimbatus - The Space Drone Constructor','Command the Nimbatus and craft drones out of hundreds of different parts. Survive unknown threats in a fully destructible, procedural universe, compete against other players in different arenas or enjoy complete creative freedom in the sandbox.','https://cdn.akamai.steamstatic.com/steam/apps/383840/header.jpg?t=1684068008','76561198149865619',448),
+	(241,384300,'CPUCores :: Maximize Your FPS','Maximize your FPS :: Use CPUCores to isolate and constrain OS + non-game processes and dedicate CPU resources to be used exclusively for your games! CPUCores fully integrates with all Steam games!','https://cdn.akamai.steamstatic.com/steam/apps/384300/header.jpg?t=1632319493','76561198149865619',1738),
+	(242,291550,'Brawlhalla','An epic platform fighter for up to 8 players online or local. Try casual free-for-alls, ranked matches, or invite friends to a private room. And it\'s free! Play cross-platform with millions of players on PlayStation, Xbox, Nintendo Switch, iOS, Android &amp; Steam! Frequent updates. Over fifty Legends.','https://cdn.akamai.steamstatic.com/steam/apps/291550/header.jpg?t=1708529211','76561198149865619',2345),
+	(243,404790,'Godot Engine','Godot Engine is a feature-packed, cross-platform game engine to create 2D and 3D games from a unified interface. It provides a comprehensive set of common tools, so that you can focus on making games without having to reinvent the wheel.','https://cdn.akamai.steamstatic.com/steam/apps/404790/header.jpg?t=1682965466','76561198149865619',49),
+	(244,405720,'Perfect Universe - Play with Gravity','Perfect Universe is a collection of 9 gravity inspired games. Featuring 6 hilarious local multiplayer modes and over 70 eye-popping single player levels, this captivating universe has something for everyone.','https://cdn.akamai.steamstatic.com/steam/apps/405720/header.jpg?t=1645006802','76561198149865619',0),
+	(245,410900,'Forts','Unleash your creativity and strategic prowess in Forts, the exhilarating physics-based RTS! Design, construct, and customize imposing fortresses, bristling with devastating firepower, and blast your opponent’s buildings to rubble!','https://cdn.akamai.steamstatic.com/steam/apps/410900/header.jpg?t=1707282403','76561198149865619',1938),
+	(246,280790,'Creativerse','A sandbox adventure game as big as your imagination.','https://cdn.akamai.steamstatic.com/steam/apps/280790/header.jpg?t=1671255455','76561198149865619',56),
+	(247,225540,'Just Cause™ 3','With over 1000 km² of complete freedom from sky to seabed, Rico Rodriguez returns to unleash chaos in the most creative and explosive ways imaginable.','https://cdn.akamai.steamstatic.com/steam/apps/225540/header.jpg?t=1660137906','76561198149865619',688),
+	(248,422970,'Devil Daggers','Devil Daggers is a fast-paced shooter that places you in an abyssal arena to face endless legions of demons. Armed with versatile magic daggers and a fluid movement system, fight to survive as long as you can.','https://cdn.akamai.steamstatic.com/steam/apps/422970/header.jpg?t=1656365226','76561198149865619',24),
+	(249,427520,'Factorio','Factorio is a game about building and creating automated factories to produce items of increasing complexity, within an infinite 2D world. Use your imagination to design your factory, combine simple elements into ingenious structures, and finally protect it from the creatures who don\'t really like you.','https://cdn.akamai.steamstatic.com/steam/apps/427520/header.jpg?t=1694021968','76561198149865619',2692),
+	(251,429790,'AdventureQuest 3D','The Void King is raising an army in secret. Death has chosen you as his champion to bring him down. Adventure &amp; quest alongside your friends in this bizarre cross-platform MMORPG from the creators of the original, and comically-redundantly named... AdventureQuest! Weekly releases!','https://cdn.akamai.steamstatic.com/steam/apps/429790/header.jpg?t=1686259366','76561198149865619',225),
+	(252,427730,'Who\'s Your Daddy?!','Who\'s Your Daddy is a casual multiplayer game featuring a clueless father attempting to prevent his infant son from certain death. Play with up to 7 of your friends, and test your parenting skills in a competitive setup with wacky physics and over 69 potentially ominous household items.','https://cdn.akamai.steamstatic.com/steam/apps/427730/header.jpg?t=1706204150','76561198149865619',381),
+	(253,431240,'Golf With Your Friends','Why have friends if not to play Golf... With Your Friends! Nothing is out of bounds as you take on courses filled with fast paced, exciting, simultaneous mini golf for up to 12 players!','https://cdn.akamai.steamstatic.com/steam/apps/431240/header.jpg?t=1705942679','76561198149865619',1443),
+	(254,433850,'Z1 Battle Royale','Z1 Battle Royale is a Free to Play, fast-paced, action arcade, competitive Battle Royale. Staying true to its &quot;King of the Kill&quot; roots, the game has been revamped and restored to the classic feel, look, and gameplay everyone fell in love with. Play solo, duos, or fives and be the last ones standing.','https://cdn.akamai.steamstatic.com/steam/apps/433850/header.jpg?t=1579626820','76561198149865619',73),
+	(255,439700,'Z1 Battle Royale: Test Server','Z1 Battle Royale is a Free to Play, fast-paced, action arcade, competitive Battle Royale. Staying true to its &quot;King of the Kill&quot; roots, the game has been revamped and restored to the classic feel, look, and gameplay everyone fell in love with. Play solo, duos, or fives and be the last ones standing.','https://cdn.akamai.steamstatic.com/steam/apps/439700/header.jpg?t=1623781388','76561198149865619',0),
+	(274,489830,'The Elder Scrolls V: Skyrim Special Edition','Winner of more than 200 Game of the Year Awards, The Elder Scrolls V: Skyrim Special Edition brings the epic fantasy to life in stunning detail. The Special Edition includes the critically acclaimed game and add-ons with all-new features.','https://cdn.akamai.steamstatic.com/steam/apps/489830/header.jpg?t=1701807334','76561198149865619',25705),
+	(276,8500,'EVE Online','EVE Online is a free-to-play community driven space MMO where players can choose their own path from countless different options. Experience space exploration, immense PvP and PvE battles, mining, industry and a thriving player economy in an ever-expanding sandbox.','https://cdn.akamai.steamstatic.com/steam/apps/8500/header_alt_assets_12.jpg?t=1708442159','76561198149865619',42),
+	(277,578080,'PUBG: BATTLEGROUNDS','Play PUBG: BATTLEGROUNDS for free. Land on strategic locations, loot weapons and supplies, and survive to become the last team standing across various, diverse Battlegrounds. Squad up and join the Battlegrounds for the original Battle Royale experience that only PUBG: BATTLEGROUNDS can offer.','https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg?t=1707123905','76561198149865619',5724),
+	(281,588650,'Dead Cells','Dead Cells is a rogue-lite, metroidvania inspired, action-platformer. You\'ll explore a sprawling, ever-changing castle... assuming you’re able to fight your way past its keepers in 2D souls-lite combat. No checkpoints. Kill, die, learn, repeat. Regular free content updates!','https://cdn.akamai.steamstatic.com/steam/apps/588650/header.jpg?t=1678188017','76561198149865619',1480),
+	(296,648800,'Raft','Raft™ throws you and your friends into an epic oceanic adventure! Alone or together, players battle to survive a perilous voyage across a vast sea! Gather debris, scavenge reefs and build your own floating home, but be wary of the man-eating sharks!','https://cdn.akamai.steamstatic.com/steam/apps/648800/header.jpg?t=1693638925','76561198149865619',148),
+	(307,466240,'Deceit','Test your instincts at trust and deception in an action-filled, multiplayer first-person shooter. You wake up in unknown surroundings to the sound of the Game Master’s unfamiliar voice, surrounded by five others. A third of your group have been infected with a virus, but who will escape?','https://cdn.akamai.steamstatic.com/steam/apps/466240/header.jpg?t=1694693700','76561198149865619',1290),
+	(320,814380,'Sekiro™: Shadows Die Twice - GOTY Edition','Game of the Year - The Game Awards 2019 Best Action Game of 2019 - IGN Carve your own clever path to vengeance in the award winning adventure from developer FromSoftware, creators of Bloodborne and the Dark Souls series. Take Revenge. Restore Your Honor. Kill Ingeniously.','https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267','76561198149865619',4365),
+	(327,881100,'Noita','Noita is a magical action roguelite set in a world where every pixel is physically simulated. Fight, explore, melt, burn, freeze and evaporate your way through the procedurally generated world using spells you\'ve created yourself.','https://cdn.akamai.steamstatic.com/steam/apps/881100/header.jpg?t=1675987871','76561198149865619',266),
+	(334,945360,'Among Us','An online and local party game of teamwork and betrayal for 4-15 players...in space!','https://cdn.akamai.steamstatic.com/steam/apps/945360/header.jpg?t=1698177355','76561198149865619',579),
+	(337,1085660,'Destiny 2','Destiny 2 is an action MMO with a single evolving world that you and your friends can join anytime, anywhere, absolutely free.','https://cdn.akamai.steamstatic.com/steam/apps/1085660/header.jpg?t=1707950251','76561198149865619',722),
+	(347,1145360,'Hades','Defy the god of the dead as you hack and slash out of the Underworld in this rogue-like dungeon crawler from the creators of Bastion, Transistor, and Pyre.','https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg?t=1702510146','76561198149865619',580),
+	(360,1623730,'Palworld','Fight, farm, build and work alongside mysterious creatures called &quot;Pals&quot; in this completely new multiplayer, open world survival and crafting game!','https://cdn.akamai.steamstatic.com/steam/apps/1623730/header.jpg?t=1707904340','76561198149865619',4749),
+	(364,1794680,'Vampire Survivors','Mow down thousands of night creatures and survive until dawn! Vampire Survivors is a gothic horror casual game with rogue-lite elements, where your choices can allow you to quickly snowball against the hundreds of monsters that get thrown at you.','https://cdn.akamai.steamstatic.com/steam/apps/1794680/header.jpg?t=1708088531','76561198149865619',2453);
 
 /*!40000 ALTER TABLE `gameDisplay` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+# Dump of table loginInfo
+# ------------------------------------------------------------
+
+DROP TABLE IF EXISTS `loginInfo`;
+
+CREATE TABLE `loginInfo` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `username` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `steamID` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+LOCK TABLES `loginInfo` WRITE;
+/*!40000 ALTER TABLE `loginInfo` DISABLE KEYS */;
+
+INSERT INTO `loginInfo` (`id`, `username`, `password`, `steamID`)
+VALUES
+	(2,'izayahJordan','$2y$10$VRRsqyGG49DO0pv5ST7FaO1I8ic0gebizu3Yd5imAruTwWED2.OHW','76561198149865619');
+
+/*!40000 ALTER TABLE `loginInfo` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
@@ -129,6 +204,18 @@ CREATE TABLE `userData` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+LOCK TABLES `userData` WRITE;
+/*!40000 ALTER TABLE `userData` DISABLE KEYS */;
+
+INSERT INTO `userData` (`id`, `rating`, `review`, `appID`, `steamID`)
+VALUES
+	(23,5,'Amazing game, way ahead of its time. Very funny story with a massive amount of content in the game. Would highly recommend',12200,'76561198149865619'),
+	(49,4,'A childhood classic for me. Not the best but nothing will beat the nostalgia I have for this game.',3320,'76561198149865619'),
+	(50,2,'Very repetitive gameplay loop, cluttered ui but some fun unique mechanics',304050,'76561198149865619'),
+	(51,5,'Amazing game, countless possibilities and stories. Fun but challenging gameplay and endless replay-ability.',233860,'76561198149865619');
+
+/*!40000 ALTER TABLE `userData` ENABLE KEYS */;
+UNLOCK TABLES;
 
 
 
