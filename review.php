@@ -31,5 +31,4 @@ foreach ($userGames as $game) {
         echo "</div>";
         echo "</div>";
         echo "</div>";
-
 }
